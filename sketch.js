@@ -42,7 +42,7 @@ function setup(){
   trex.addAnimation("Trex_running",trex_image);
   trex.scale=0.7; 
   trex.debug=false;
-  trex.setCollider("circle",0,0,30);
+  trex.setCollider("circle",0,0,20);
   
   //Creates ground in the canvas
   ground=createSprite(200,325,10,10);
